@@ -1,0 +1,101 @@
+header {
+    background-color: aqua;
+}
+
+header h1 {
+    color: blue;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: dodgerblue
+}
+
+footer p {
+    color: gray;
+}
+
+#containal {
+    overflow: hidden;
+    margin: 10px;
+}
+
+#item-list-containal {
+    overflow: hidden;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    color: crimson;
+    
+}
+
+.item-detail-containal {    
+    background-color: firebrick;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    position:relative;
+}
+
+.item-detail-containal button {
+    width: 100%;
+    height: 50px;
+    position:absolute; bottom:0px;
+    right:0px; 
+}
+
+.item-containal {
+    background-color: firebrick;
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.item-image {
+    padding: 10px;
+}
+
+.item-image img {
+    width: 100%;
+    height: 200px;
+}
+
+.item-detail-image {
+    padding: 10px;
+}
+
+.item-detail-image img {
+    width: 100%;
+    height: 400px;
+}
+
+.item-title {
+    margin: 5px;
+    color: beige;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-desc {
+    margin: 5px;
+    color: beige;
+    font-size: 10pt;
+}
+
+.item-price {
+    margin: 5px;
+    color: beige;
+    font-size: 10pt;
+    text-align: right;
+}
