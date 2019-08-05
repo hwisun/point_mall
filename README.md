@@ -1,1 +1,1 @@
-# point_mall_api
+# point_mall 실습 Django APT Server
